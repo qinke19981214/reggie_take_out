@@ -11,7 +11,7 @@ public class BaseContext {
 
 
 
-    //设置登入用户id
+    //设置登入用户id6
     public  static  void setCurrentId(Long id){
         threadLocal.set(id);
     }
