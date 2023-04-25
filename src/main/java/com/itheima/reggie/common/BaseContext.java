@@ -4,7 +4,7 @@ package com.itheima.reggie.common;
 /*
 *
 *基于ThreadLocal工具类,用于获取和设置用户id
-* */
+6* */
 public class BaseContext {
 
     private  static ThreadLocal<Long> threadLocal=new ThreadLocal<>();
